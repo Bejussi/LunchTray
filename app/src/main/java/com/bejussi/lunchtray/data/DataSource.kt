@@ -1,11 +1,10 @@
 package com.bejussi.lunchtray.data
 
-import android.view.MenuItem
 import com.bejussi.lunchtray.constants.ItemType
 import com.bejussi.lunchtray.model.MenuItem
 
 object DataSource {
-    val menuItem = mapOf(
+    val menuItems = mapOf(
         "cauliflower" to
                 MenuItem(
                     name = "Cauliflower",
